@@ -80,5 +80,6 @@ function getTime(date) {}
 const table = document.querySelector(".content table");
 function deleteHandler() {
     console.log(event.target);
+    console.log(event.target.parentElement)
     table.deleteRow(event.target.parentElement.rowIndex);
 }

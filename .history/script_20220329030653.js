@@ -77,8 +77,9 @@ function getData(newUrl, city) {
 
 function getTime(date) {}
 
-const table = document.querySelector(".content table");
-function deleteHandler() {
-    console.log(event.target);
-    table.deleteRow(event.target.parentElement.rowIndex);
-}
+// const table = document.querySelector(".content table");
+// function deleteHandler() {
+//   console.log(event.target);
+//   let city = event.target.parentNode.children[0].innerHTML;
+//     table.deleteRow(event.target.rowIndex);
+// }
