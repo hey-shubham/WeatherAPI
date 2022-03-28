@@ -1,0 +1,22 @@
+const cityBtn = document.querySelector("aside button");
+const td = document.querySelectorAll("tbody td");
+// console.log(td[0]);
+cityBtn.addEventListener("click", () => {
+    
+    console.log("clicked")
+    return new Promise((res, rej) => {
+        setTimeout(() => {
+            td[0].focus();
+            red(1);
+        },1000)
+    })
+}).then((num) => {
+    td[num].focus();
+    return 2;
+}).then((num) => {
+    td[2].focus();
+    return 3;
+}).then((num) => {
+    td[3].focus();
+    return num;
+})

@@ -1,0 +1,9 @@
+body{
+    display: flex;
+}
+th{
+    /* background-color:  red; */
+    padding: 10px;
+}
+
+    list-style: none;

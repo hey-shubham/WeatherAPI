@@ -1,0 +1,14 @@
+body{
+    display: flex;
+}
+table{
+    margin-left: 10px;
+}
+th,td{
+    /* background-color:  red; */
+    padding: 10px;
+    border: 1px solid black;
+}
+li{
+    list-style: none;
+}

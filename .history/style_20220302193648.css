@@ -1,0 +1,8 @@
+body{
+    display: flex;
+}
+th{
+    margin-left: 2rem;
+    background-color:  red;
+    padding: 10px;
+}

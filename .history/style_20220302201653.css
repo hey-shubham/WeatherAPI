@@ -1,0 +1,12 @@
+body{
+    display: flex;
+}
+th,td{
+    /* background-color:  red; */
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
