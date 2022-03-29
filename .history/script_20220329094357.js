@@ -99,10 +99,7 @@ function filterTableHandler() {
       tbody.appendChild(row);
     }
     if (tbody.innerHTML === "") {
-      const node = document.createElement("h1");
-      const textnode = document.createTextNode("No Data Found");
-      node.appendChild(textnode)
-      tbody.appendChild(node);
+      
     }
   });
 }

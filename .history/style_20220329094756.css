@@ -63,9 +63,9 @@ aside td {
   width: 100%;
   /* background-color: #a29bfe; */
 }
-.content .search {
-  margin-top: 1rem;
-  margin-left: 50%;
+.content .search{
+    margin-top: 1rem;
+    margin-left: 50%;
 }
 .content input {
   height: 2.5rem;
@@ -82,12 +82,15 @@ aside td {
 
   color: white;
 }
-.content table {
-  margin-left: 10%;
-  margin-top: 2%;
+.content table{
+    margin-left: 10%;
+    margin-top: 2%;
 }
-.content table td {
-  height: 2rem;
-  width: 8rem;
-  text-align: center;
+.content table td{
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+}
+.center{
+  mar
 }

@@ -101,7 +101,8 @@ function filterTableHandler() {
     if (tbody.innerHTML === "") {
       const node = document.createElement("h1");
       const textnode = document.createTextNode("No Data Found");
-      node.appendChild(textnode)
+      node.appendChild()
+      node.classList.add("center");
       tbody.appendChild(node);
     }
   });

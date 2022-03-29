@@ -100,8 +100,8 @@ function filterTableHandler() {
     }
     if (tbody.innerHTML === "") {
       const node = document.createElement("h1");
-      const textnode = document.createTextNode("No Data Found");
-      node.appendChild(textnode)
+      const textnode = document.createte()
+      node.classList.add("center");
       tbody.appendChild(node);
     }
   });

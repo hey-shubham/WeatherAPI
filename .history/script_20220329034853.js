@@ -90,19 +90,18 @@ searchBtn.addEventListener("click", () => {
 });
 function filterTableHandler() {
   let tr = tbody.querySelectorAll("tr");
-  tbody.innerHTML = "";
   console.log(tr);
-  tr.forEach((row) => {
+  //filter nodelist p nhi lgta
+  tr = [...tr];
+  const rowArr = tr.filter((row) => {
     console.log(row.children[0].innerText);
-    console.log(row);
-    if (row.children[0].innerText.includes(input.value)) {
-      tbody.appendChild(row);
-    }
-    if (tbody.innerHTML === "") {
-      const node = document.createElement("h1");
-      const textnode = document.createTextNode("No Data Found");
-      node.appendChild(textnode)
-      tbody.appendChild(node);
-    }
+    console.log(row.children[0].innerText.includes(input.value));
+    row.children[0].innerText.includes(input.value);
+  });
+    tbody.innerHTML = "";
+    console.log(rowArr);
+    rowArr.forEach((row) => {
+      console.log(row)
+    tbody.innerHTML += row;
   });
 }
